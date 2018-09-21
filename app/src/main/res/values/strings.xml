@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Product Deliveries</string>
+    <string name="product_images">Product Images</string>
+    <string name="no_description">No Description</string>
+    <string name="no_address">No Address</string>
+    <string name="download_failed">Download Failed!</string>
+    <string name="no_internet">No Internet</string>
+    <string name="title_activity_web">Map Activity</string>
+    <string name="google_maps_key">PUT YOUR MAP KEY HERE</string>
+    <string name="no_data">No Data</string>
+</resources>
