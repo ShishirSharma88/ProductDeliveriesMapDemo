@@ -48,10 +48,10 @@ public class DataHandler extends AsyncTask<Void, Void, Boolean> {
     }
 
     @Override
-    protected void onPostExecute(Boolean aBoolean) {
-        super.onPostExecute(aBoolean);
+    protected void onPostExecute(Boolean isSuccessful) {
+        super.onPostExecute(isSuccessful);
 
-        if (aBoolean) {
+        if (isSuccessful) {
             taskListener.onSuccess(allProductList);
         } else {
             taskListener.onFailure(allProductList, errorType);
