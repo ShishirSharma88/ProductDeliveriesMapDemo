@@ -22,7 +22,7 @@ ButterKnife is used with views
 ## Google Map Key Generation Process
 
 https://console.developers.google.com/apis/dashboard
-First need to go to developer console with the help of above webiste link.
+First need to go to developer console with the help of website link.
 1) Create a new project
 2) Enable Map SDK for Android
 3) Go to Create Credentials and choose API Key

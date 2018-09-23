@@ -4,6 +4,7 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.google.gson.GsonBuilder;
+
 import com.my.shishir.demoapp.listener.TaskListener;
 import com.my.shishir.demoapp.model.ProductData;
 import com.my.shishir.demoapp.utility.Utility;
@@ -14,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
+
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;

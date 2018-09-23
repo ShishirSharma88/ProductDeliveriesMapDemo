@@ -12,6 +12,7 @@ import com.my.shishir.demoapp.utility.Utility;
 import java.util.List;
 
 import retrofit2.Retrofit;
+
 import rx.Observable;
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
