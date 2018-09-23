@@ -62,8 +62,7 @@ public class RequestManager implements TaskListener<List<ProductData>> {
         return new Retrofit.Builder()
                 .baseUrl(Utility.BASE_URL)
 
-                // To handle parameter expected as list but may be empty in some cases like
-                // org_facet, per_facet etc
+                // To handle parameter expected as list but may be empty in some cases
                 .addConverterFactory(GsonConverterFactory.create(new GsonBuilder()
                         .registerTypeAdapterFactory(getArrayOrEmptyStringTypeAdapterFactory())
                         .create()))

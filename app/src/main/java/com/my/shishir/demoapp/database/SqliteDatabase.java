@@ -53,14 +53,14 @@ class SqliteDatabase extends SQLiteOpenHelper {
         this.onCreate(db);
     }
 
-    // This is not in use but here in case
+    // This is not in use but here in case you need it in future
     public void deleteProduct(ProductData productData) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_NAME, "id = ?", new String[]{String.valueOf(productData.getId())});
         db.close();
     }
 
-    // This is not in use but in case
+    // This is not in use but here in case you need it in future
     public ProductData getProduct(int id) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.query(TABLE_NAME, // a. table
@@ -92,6 +92,7 @@ class SqliteDatabase extends SQLiteOpenHelper {
 
         return productData;
     }
+
 
     public List<ProductData> getAllData() {
 
@@ -143,7 +144,7 @@ class SqliteDatabase extends SQLiteOpenHelper {
         }
     }
 
-    // This is not in use but incase
+    // This is not in use but here in case you need it in future
     public int updateProduct(ProductData productData) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();

@@ -9,6 +9,9 @@ import com.my.shishir.demoapp.model.ProductData;
 
 import java.util.List;
 
+/**
+ *  This class is responsible for inserting and getting data into the Database
+ */
 public class DataHandler extends AsyncTask<Void, Void, Boolean> {
 
     private final List<ProductData> productDataList;

@@ -90,6 +90,7 @@ public class MainPresenterImpl implements ProductListContract.MainPresenter {
 
         isLoading = false;
 
+        // In-case of success we update offset value
         if (success) {
             if (offset <= productDataList.size()) {
                 offset = productDataList.size() + 1;

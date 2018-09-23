@@ -16,7 +16,6 @@ It shows product articles with their title, Description and Image in a list.
 User is able to scroll and refresh as per need via swipe down on the screen.
 It uses RxAndroid with MVP in its architecture.
 It uses Retrofit 2 library for network calls.
-Unit testing with Espresso and Android Junit frameworks.
 Its uses Picasso for image download and cache management.
 ButterKnife is used with views
 

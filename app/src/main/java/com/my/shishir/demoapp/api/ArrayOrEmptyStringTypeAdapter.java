@@ -14,6 +14,9 @@ import java.util.List;
 
 import static com.google.gson.stream.JsonToken.END_ARRAY;
 
+/**
+ * This class is helpful in case if response have empty string or array in any parameter
+ */
 final class ArrayOrEmptyStringTypeAdapter<E>
         extends TypeAdapter<List<E>> {
 
